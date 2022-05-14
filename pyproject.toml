@@ -17,5 +17,4 @@ multi_line_output = 3
 include_trailing_comma = true
 force_grid_wrap = 0
 use_parentheses = true
-known_third_party = 'pymysql'
 skip_glob = ['.venv','cdk.out', 'node_modules']

@@ -1,10 +1,10 @@
 {
   "volta": {
-    "node": "17.9.0",
+    "node": "16.15.0",
     "npm": "8.7.0"
   },
-  "devDependencies": {
-    "aws-cdk": "^2.24.1",
-    "cdk-dia": "^0.7.0"
+  "dependencies": {
+    "aws-cdk": "2.24.1",
+    "cdk-dia": "0.7.0"
   }
 }

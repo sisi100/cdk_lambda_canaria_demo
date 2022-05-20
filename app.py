@@ -62,7 +62,7 @@ deployment_group = aws_codedeploy.LambdaDeploymentGroup(
 alarm = aws_cloudwatch.Alarm(
     stack,
     "Alarm",
-    comparison_operator=aws_cloudwatch.ComparisonOperator.GREATER_THAN_THRESHOLD,
+    comparison_operator=aws_cloudwatch.ComparisonOperator.GREATER_THAN_OR_EQUAL_TO_THRESHOLD,
     threshold=1,
     evaluation_periods=1,
     metric=alias.metric_errors(),

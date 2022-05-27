@@ -26,7 +26,7 @@ def post_hook_handler(event, context):
     #     "DeploymentId": "d-XXXXXXXXX",
     #     "LifecycleEventHookExecutionId": "xxxxxxxxxxxxxxxxxxxxxxxx"
     # }
-    print("デプロイ終わったよ！")
+    print("カナリアテスト終わったよ！")
     codedeploy.put_lifecycle_event_hook_execution_status(
         deploymentId=event["DeploymentId"],
         lifecycleEventHookExecutionId=event["LifecycleEventHookExecutionId"],
